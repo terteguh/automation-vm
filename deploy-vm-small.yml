@@ -1,0 +1,12 @@
+---
+
+- name: Clone the template
+  hosts: localhost
+  become: false
+  gather_facts: no
+  tags:
+    - new-vm
+
+  roles:
+  
+    - vm-small

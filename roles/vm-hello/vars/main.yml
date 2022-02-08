@@ -1,0 +1,12 @@
+---
+# vars file for vm-hello
+vm:
+  large:
+    memory_mb: "32768"
+    num_cpus: "16"
+  medium:
+    memory_mb: "16384"
+    num_cpus: "8"
+  small:
+    memory_mb: "8192"
+    num_cpus: "4"

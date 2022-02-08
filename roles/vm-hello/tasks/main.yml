@@ -1,0 +1,5 @@
+---
+
+- name: Hello Message
+  debug:
+    msg: "Hello World! vm.{{ survey }}.memory_mb"

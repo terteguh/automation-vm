@@ -1,0 +1,13 @@
+---
+
+- name: Deploy hello world
+  hosts: hello_world
+  gather_facts: false 
+  become: true
+
+  tags:
+    - vm-hello
+
+  roles:
+
+    - vm-hello
